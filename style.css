@@ -1,0 +1,182 @@
+:root {
+    --navy: #004360;
+    --peach: #ff8D8F;
+    --h1blue: #354A5E;
+    --white: #FFFFFF;
+    --gray: #333;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+    font-family: 'roboto';
+    z-index: 1;
+    padding: 10px;
+    font-size: 14px;
+    /* position: fixed; */
+    width: 100%;
+}
+header p {
+    color: #FFFFFF;
+}
+
+/* nav */
+
+ /* Styling for the navbar container */
+
+ .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 110px;
+    font-family: 'roboto';
+    margin-top: -10px;
+}
+
+/* Logo and slogan */
+
+.logo {
+    font-family: 'roboto';
+    font-size: 24px;
+}
+
+.logo img {
+    width: 87px;
+    height: 38px;
+   
+}
+
+.slogan {
+    font-size: 14px;
+    color: var(--peach);
+    margin-left: 120px;
+    margin-top: -30px;
+}
+
+/* Links section */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    padding-top: 13px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--gray);
+    font-weight: 600;
+    padding-top: 13px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Login button */
+.login-btn {
+    border: 2px solid var(--peach);
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: var(--peach);
+    margin-top: -2px;
+    text-decoration: none;
+}
+
+.login-btn:hover {
+    background-color: var(--peach);
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+/* home */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.container {
+    max-width: 100%;
+    background: #F2F1F6;
+    /* padding: 10px; */
+    font-family: 'roboto';
+    padding: 15px 200px;
+}
+
+h1 {
+    color: var(--navy);
+}
+div p {
+    color: #555;
+    text-wrap: flex;
+    font-size: 16px;
+    /* margin: 10px 0 20px; */
+    margin-left: 0px;
+    margin-right: 300px;
+}
+a {
+    color: #48c4d3;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+.btn {
+    display: inline-block;
+    background: var(--peach);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #ff4e4e;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    size: 75%;
+}
+.profile img {
+    margin-right: -300px;
+    margin-top: -350px;
+    width: 250px;
+    height: auto;
+}
+.profile-text {
+    text-align: center  ;
+    background-color: #374d61;
+    padding: 20px 75px;
+    font-weight: normal;
+    margin-right: -700px;
+    
+}
+.profile-name {
+    font-weight: bold;
+    color: var(--white);
+    font-weight: normal;
+}
+.profile-title {
+    color: #777;
+}
